@@ -1,0 +1,7 @@
+{
+  "query": "{ Jobs (orderBy: { lastUpdate: DESC  }  ) {   id,   status,   expirationTime,   lastUpdate,   repeatLimit,   repeatInterval,   executionCounter,   retries,   lastUpdate,   callbackEndpoint } }"
+}
+
+{
+  "query": "{Jobs{id,status}}"
+}
